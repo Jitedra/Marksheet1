@@ -20,6 +20,8 @@ function check(){
   	}; 
     
     window.localStorage.setItem('student', JSON.stringify(stu1));
+
+    window.location.href = 'thank.html';
 }
 
 function fetch(){
