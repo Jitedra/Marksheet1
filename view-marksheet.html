@@ -23,102 +23,100 @@
 </head>
 
 <body>
-  <div class="container">
-  	
+  <div class="container">	
   <hr>
 
-  	<div> 
+  <div> 
 	  <form>
-		<div class="row">
-		  <div class="col">
-		    <a href="add-marks.html">Add Marks</a>
+		  <div class="row">
+		    <div class="col">
+		      <a href="add-marks.html">Add Marks</a>
+		    </div>
+		    <div class="col">
+		      <a href="view-marksheet.html">View Marksheet</a>
+		    </div>
 		  </div>
-		  <div class="col">
-		    <a href="view-marksheet.html">View Marksheet</a>
-		  </div>
-		</div>
 	  </form>
-    </div>
+  </div>
 
-    <hr>
-
-    <div>
-      <div class="mark">
-        <select id="class">
-        	<option>Select class</option>
-	        <option>Class 6</option>
-	          <option>Class 7</option>
-	          <option>Class 8</option>
-	          <option>Class 9</option>
-	          <option>Class 10</option>
-        </select>
-      </div>
-
-      <div class="mark">
-        <div class="dropdown">
-		  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Student Name
-		  </a>
-		  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-		    <a class="dropdown-item" id="maths" onclick="fetch()">Maths</a>
-		    <a class="dropdown-item" id="hindi" onclick="fetch()">Hindi</a>
-	        <a class="dropdown-item" id="english" onclick="fetch()">English</a>
-	        <a class="dropdown-item" id="science" onclick="fetch()">Science</a>
-	        <a class="dropdown-item" id="social" onclick="fetch()">Social</a>
-		  </div>
-	    </div>
-      </div>
-      <div class="container">
-  	
   <hr>
 
-
+  <div>
     <table class="table-css">
       <form>
-      	<tr>
-      	  <th>MARKSHEET</th>
-      	</tr>
+        <tr>
+          <th>MARKSHEET</th>
+        </tr>
 
-      	<tr>
-      	  <td><label>Name: </label></td>
-      	  <td><input type="text" name="" id="name1" /></td>
-      	</tr>
+        <tr>
+          <td><label>Name: </label></td>
+          <td><input type="text" name="" id="name" /></td>
+        </tr>
 
-      	<tr>
-      	  <td><label>Class: </label></td>
-      	  <td><input type="text" name="" id="class1" /></td>
-      	</tr>
+        <tr>
+          <td><label>Class: </label></td>
+          <td><input type="text" name="" id="class" /></td>
+        </tr>
 
-      	<tr>
-      	  <td><label>Maths: </label></td>
-      	  <td><input type="text" name="" id="math1" /></td>
-      	</tr>
-
-      	<tr>
-      	  <td><label>English: </label></td>
-      	  <td><input type="text" name="" id="english1" /></td>
-      	</tr>
-
-      	<tr>
-      	  <td><label>Hindi: </label></td>
-      	  <td><input type="text" name="" id="hindi1" /></td>
-      	</tr>
-
-      	<tr>
-      	  <td><label>Science: </label></td>
-      	  <td><input type="text" name="" id="science1" /></td>
-      	</tr>
-
-      	<tr>
-      	  <td><label>Social: </label></td>
-      	  <td><input type="text" name="" id="social1" /></td>
-      	</tr>
+        <tr>
+          <td>
+            <button type="button" class="btn btn-primary" onclick="fetch()">Submit</button>
+          </td>
+        </tr>
 
       </form>
     </table>
 
-  </div>
+    <div class="container">
+  	<hr>
+
+      <table class="table-css">
+        <form>
+      	  <tr>
+      	    <th>MARKSHEET</th>
+      	  </tr>
+
+      	  <tr>
+      	    <td><label>Name: </label></td>
+      	    <td><input type="text" name="" id="name1" /></td>
+      	  </tr>
+
+      	  <tr>
+      	    <td><label>Class: </label></td>
+      	    <td><input type="text" name="" id="class1" /></td>
+      	  </tr>
+
+      	  <tr>
+      	    <td><label>Maths: </label></td>
+      	    <td><input type="text" name="" id="math1" /></td>
+      	  </tr>
+
+      	  <tr>
+      	    <td><label>English: </label></td>
+      	    <td><input type="text" name="" id="english1" /></td>
+      	  </tr>
+
+      	  <tr>
+      	    <td><label>Hindi: </label></td>
+      	    <td><input type="text" name="" id="hindi1" /></td>
+      	  </tr>
+
+      	  <tr>
+      	    <td><label>Science: </label></td>
+      	    <td><input type="text" name="" id="science1" /></td>
+      	  </tr>
+
+      	  <tr>
+      	    <td><label>Social: </label></td>
+      	    <td><input type="text" name="" id="social1" /></td>
+      	  </tr>
+
+        </form>
+      </table>
 
     </div>
+
+  </div>
 
   </div>
 
