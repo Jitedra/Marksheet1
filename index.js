@@ -5,8 +5,7 @@ function check(){
   const english = document.getElementById('english').value;
   const social = document.getElementById('social').value;
   const science = document.getElementById('science').value;
-  const hindi = document.getElementById('hindi').value;
-  
+  const hindi = document.getElementById('hindi').value;s
   let student = {
     name: "name",
     class: "standard",
@@ -16,7 +15,7 @@ function check(){
     science: "science",
     hindi: "hindi"
   };
-
+//storing data on local storage.
   let fetch = JSON.parse(localStorage.getItem('student'));
   let array = [];
   if(fetch != null){
@@ -28,7 +27,7 @@ function check(){
   window.localStorage.setItem('student', JSON.stringify(array));
   window.location.href = 'thank.html';
 }
-
+//function to retrive data from local storage.
 function fetch(){
   let student = document.getElementById('studentName').value;
   let standard = document.getElementById('studentClass').value;
